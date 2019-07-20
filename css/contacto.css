@@ -1,0 +1,77 @@
+input, textarea
+{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  padding: .3rem;
+  margin: 1rem;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.header__video img
+{
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container, .container--flex
+{
+  flex-wrap: wrap;
+}
+
+.formulario
+{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact__title
+{
+  color: #e0bc75;
+  padding: 1.3rem 0;
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+}
+
+.content
+{
+  text-align: justify;
+  background: #f8f8f8;
+  padding: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 10px;
+}
+
+.btn__form:hover
+{
+  background-color: #C44569;
+  color: #FFFFFF;
+}
+
+.btn__form
+{
+  width: 124px;
+  margin: 1rem 0.5rem;
+  text-align: center;
+  display: inline-block;
+  color: #000000;
+  background: none;
+  text-decoration: none;
+  padding: .5rem 0;
+  border: 2px solid #C44569;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.footer
+{
+  margin-top: 1rem;
+}
